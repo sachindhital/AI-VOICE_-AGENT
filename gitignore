@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.env
+*.venv/
+*.log
+
+# Environments
+.env
+token.json
+credentials.json
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DB files
+*.sqlite
+auto_db.sqlite
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+#  LiveKit Voice Assistant
+livekit>=0.19.1
+livekit-agents>=0.12.11,<1.0.0
+livekit-plugins-openai>=0.10.17,<1.0.0
+livekit-plugins-silero
+livekit-api
+
+#  Environment + Web server
+python-dotenv~=1.0
+flask[async]
+flask
+flask-cors
+uvicorn
+
+# Google Calendar Integration
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
